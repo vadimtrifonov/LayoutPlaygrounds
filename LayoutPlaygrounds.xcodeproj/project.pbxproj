@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5D5870D42217818C007AB7AC /* LayoutPlaygrounds */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5D5870D52217818C007AB7AC /* Build configuration list for PBXAggregateTarget "LayoutPlaygrounds" */;
+			buildPhases = (
+				5D5870D822178195007AB7AC /* Copy Carthage Frameworks */,
+			);
+			dependencies = (
+			);
+			name = LayoutPlaygrounds;
+			productName = CarthagePlayground;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		5D3FD39E222A210D00E37880 /* SnapKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SnapKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D3FD39F222A223300E37880 /* PureLayout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PureLayout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D3FD3A0222C7A6D00E37880 /* TinyConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TinyConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D3FD3A1222C7D6800E37880 /* Cartography.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Cartography.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D3FD3A2222C838E00E37880 /* PinLayout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PinLayout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D5870D9221781FC007AB7AC /* Vanilla.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Vanilla.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D5870DA22178308007AB7AC /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		5D5870DB22178318007AB7AC /* copy-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "copy-frameworks.sh"; sourceTree = "<group>"; };
+		5DBB1277222DD90000274E35 /* Constraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Constraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5D5870CD2217816B007AB7AC = {
+			isa = PBXGroup;
+			children = (
+				5DBB1277222DD90000274E35 /* Constraints.playground */,
+				5D3FD3A2222C838E00E37880 /* PinLayout.playground */,
+				5D3FD3A1222C7D6800E37880 /* Cartography.playground */,
+				5D3FD3A0222C7A6D00E37880 /* TinyConstraints.playground */,
+				5D3FD39F222A223300E37880 /* PureLayout.playground */,
+				5D3FD39E222A210D00E37880 /* SnapKit.playground */,
+				5D5870DA22178308007AB7AC /* Cartfile */,
+				5D5870D9221781FC007AB7AC /* Vanilla.playground */,
+				5D5870DB22178318007AB7AC /* copy-frameworks.sh */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5D5870CE2217816B007AB7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					5D5870D42217818C007AB7AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D5870D12217816B007AB7AC /* Build configuration list for PBXProject "LayoutPlaygrounds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D5870CD2217816B007AB7AC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5870D42217818C007AB7AC /* LayoutPlaygrounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D5870D822178195007AB7AC /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/copy-frameworks.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D5870D22217816B007AB7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5D5870D32217816B007AB7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5D5870D62217818C007AB7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5870D72217818C007AB7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5870D12217816B007AB7AC /* Build configuration list for PBXProject "LayoutPlaygrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5870D22217816B007AB7AC /* Debug */,
+				5D5870D32217816B007AB7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5870D52217818C007AB7AC /* Build configuration list for PBXAggregateTarget "LayoutPlaygrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5870D62217818C007AB7AC /* Debug */,
+				5D5870D72217818C007AB7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5870CE2217816B007AB7AC /* Project object */;
+}

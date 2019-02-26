@@ -1,0 +1,6 @@
+github "PureLayout/PureLayout" "v3.1.4"
+github "SnapKit/SnapKit" "4.2.0"
+github "layoutBox/PinLayout" "1.8.7"
+github "robb/Cartography" "3.1.0"
+github "roberthein/TinyConstraints" "3.3.1"
+github "vadimtrifonov/Constraints" "2.0.0"
